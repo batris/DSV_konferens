@@ -404,75 +404,30 @@ The abstract goes here.
 
 
 \section{Introduction and Background}
-% no \IEEEPARstart
-A current trend  in university education is to increase the amount
+A current trend in university education is to increase the amount
 of resources that are available for the students online. This way,
 the students can, to a greater extent, plan their work
 individually which may be a prerequisite for non-traditional
-students. The flipped classroom idea is in short a way of making
-better use of the time that students and teachers spend at the
-same location. Students prepare for lecture time 
+students. 
 
-An important component in the flipped classroom
-environment is the video snippets that the students are required
-to watch before the classroom sessions and the quizzes that they
-will complete after watching them. 
+The flipped classroom idea is in short a way of making better use
+of the time that students and teachers spend at the same
+location. Students prepare for classroom sessions (lectures) by
+e.g. watching short snippets of pre-recorded lectures. These
+videos are often followed up by a quiz or questionnaire for the
+student where the understanding gained from the video lecture is
+assessed. The results from the questionnaire can then be used by
+the teacher for tailoring the classroom sessions e.g. emphasizing
+parts that many students misunderstood or did not remember.
 
-% You must have at least 2 lines in the paragraph with the drop letter
-% (should never be an issue)
-I wish you the best of success.
-
-%\hfill mds
- 
-%\hfill January 11, 2007
-
-
-% An example of a double column floating figure using two subfigures.
-% (The subfig.sty package must be loaded for this to work.)
-% The subfigure \label commands are set within each subfloat command, the
-% \label for the overall figure must come after \caption.
-% \hfil must be used as a separator to get equal spacing.
-% The subfigure.sty package works much the same way, except \subfigure is
-% used instead of \subfloat.
-%
-%\begin{figure*}[!t]
-%\centerline{\subfloat[Case I]\includegraphics[width=2.5in]{subfigcase1}%
-%\label{fig_first_case}}
-%\hfil
-%\subfloat[Case II]{\includegraphics[width=2.5in]{subfigcase2}%
-%\label{fig_second_case}}}
-%\caption{Simulation results}
-%\label{fig_sim}
-%\end{figure*}
-%
-% Note that often IEEE papers with subfigures do not employ subfigure
-% captions (using the optional argument to \subfloat), but instead will
-% reference/describe all of them (a), (b), etc., within the main caption.
+To be useful, the interpretation of the data from the quizzes or
+questionnaires must be automatic. If the questionnaire questions
+are all multiple choice, the interpretation will be easily
+done. On programming courses, though, there is also a need to
+understand if students can write code, e.g. fill in short snippets
+in existing code to illustrate an algorithm \ldots
 
 
-% An example of a floating table. Note that, for IEEE style tables, the 
-% \caption command should come BEFORE the table. Table text will default to
-% \footnotesize as IEEE normally uses this smaller font for tables.
-% The \label must come after \caption as always.
-%
-%\begin{table}[!t]
-%% increase table row spacing, adjust to taste
-%\renewcommand{\arraystretch}{1.3}
-% if using array.sty, it might be a good idea to tweak the value of
-% \extrarowheight as needed to properly center the text within the cells
-%\caption{An Example of a Table}
-%\label{table_example}
-%\centering
-%% Some packages, such as MDW tools, offer better commands for making tables
-%% than the plain LaTeX2e tabular which is used here.
-%\begin{tabular}{|c||c|}
-%\hline
-%One & Two\\
-%\hline
-%Three & Four\\
-%\hline
-%\end{tabular}
-%\end{table}
 
 \section{Paper Summaries}
 
@@ -492,7 +447,7 @@ definition and relative importance vary between courses and
 different teachers. Automatic assessment would mean that the
 assessment 
 
-\subsection{Review of Recent Systems for Automatic Assessment of Programming Assignments}
+
 
 \subsection{Automated Assessment of Programming Assignments}
 
@@ -548,7 +503,9 @@ than systems.
 
 Resubmission of assignments could encourage students to a mindless trial and error problem solving method, and many tools have submission limitations to hinder such behaviour. The authors mention that is often a good idea to combine automatic and manual assessment. They also point out that, when running submitted student solutions, it is important to secure the server against malicious or incorrect code.
 
-It is disappointing that many systems mentioned in the litterature are just prototypes and not publically available.
+It is disappointing that many systems mentioned in the litterature
+are just prototypes and not publically 
+available.
 
 Concurrent programming assignments are especially hard to test for correctness.
 
@@ -556,7 +513,7 @@ Letting students write tests for themselves or reviewing code of other students 
 
 The authors conclude that is important that the developers of automatic assessment systems describe in more detail how the system actually work. They argue that by publishing the code of the systems as open source would help getting the systems to be more willingly adopted by others. 
 
-\section{Categorisation and Evaluation}
+\section{Further Ideas?}
 
 Depending on the context in which the assessment tool is supposed
 to be used, the requirements for how it can be used will be
@@ -569,8 +526,6 @@ assessments.
 
 Standalone systems vs. Moodle plugins.
 
-\section{New Ideas?}
-
 What kind of metrics would we like to produce for the programs?
 E.g. coupling/cohesion. 
 
@@ -579,9 +534,18 @@ automated assessment system? At what point does it become
 ``cheaper'' per student?
 
 \section{Conclusion}
-The conclusion goes here.
 
+The field of automated programming assignment assessment seems
+surprisingly immature. As far as we have seen, there seem to exist
+no fully developed off-the-shelf tool which is widely used. 
 
+The systems we have encountered are all prototypes developed for
+research purposes, that is researching automated assessment,
+rather than tools used 
+
+Nevertheless, the interest for using automated assessment seems to
+be big and increasing, especially in the light of MOOCs and new
+pedagogical ideas as the flipped classroom. 
 
 % trigger a \newpage just before the given reference
 % number - used to balance the columns on the last page
