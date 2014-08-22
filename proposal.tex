@@ -528,7 +528,19 @@ instructor to provide qualitative feedback, it should be able to
 report on quality metrics, statistical information about students'
 performance should be collected and optionally shown to them. 
 
+\subsection{Programming Assignments Automatic Grading: Review of Tools and Implementations}
 
+The paper \cite{CaizaDelAlamo13} describes 11 tools for automated grading of programming assignments. These tools have primiary been developed at different universities, and none of these tools seems to be widely used. The older tools, which are more mature, were usually standalone programs, while the newer tools are usually plugins to LMS systems and most often to Moodle.
+
+The authors identify that the lack of a grading model for assignments is an important gap in the reviewed tools. Therefore, as a first step towards a grading model, they provide a characterization of evaluation metrics. Most tools support dynamic analysis by testing correctness using test cases. Some tools support static analysis but the paper does not analyze in detail the different metrics and quality of the static analysis. The tool which seem to support the most sophisticated static analysis is CourseMarker developed by Nottingham University \cite{HigginsEtAl05}.
+
+The static analysis is of course the most interesting part since the dynamic analysis provided by the tools is mainly the same support for running tests as you get with standard build servers. 
+
+\subsection{Review of Recent Systems for Automatic Assessment of Programming Assignments}
+
+In \bibitem{Ihantola:2010:RRS:1930464.1930480} the authors raise the question why there exists so many automatic assessment systems with the same functionality. The reason seems to be that most systems are developed by researchers and teachers for their own use, and very few systems actually emerge as supported pieces of software. The main part of the paper focuses on features rather than systems.
+
+Resubmission of assignments could encourage students to a mindless trial and error problem solving method, and many tools have submission limitations to hinder such behaviour. /*to be continued*/ 
 
 \section{Categorisation and Evaluation}
 
@@ -596,6 +608,18 @@ The conclusion goes here.
   Vreda Pieterse, 
   {\it Automated Assessment of Programming Assignments},
   In Proceedings of CSERC '13, pages 4:45--4:56, 2013.
+
+\bibitem{CaizaDelAlamo13}
+Julio C. Caiza, Jose M. Del Alamo
+{\it Programming Assignments Automatic Grading: Review of Tools and Implementations}
+Universidad Politécnica de Madrid (SPAIN)
+2013.
+
+\bibitem{HigginsEtAl05}
+Higgins, C. A., Gray, G., Symeonidis, P., Tsintsifas, A.  
+{\it Automated Assessment and Experiences of Teaching Programming.} 
+Journal on Educational Resources in Computing (JERIC), vol. 5, pp. 5.
+2005.
 
  
 \end{thebibliography}
